@@ -4,7 +4,7 @@ on: [push]
 env:
   APPLICATION_NAME: CalculatorAPP
   REGISTRY: ghcr.io
-  IMAGE_NAME: Wael-latiri/devops-labs-flask-app
+  IMAGE_NAME: Wael-latiri/CalculatorAPP
 jobs:
   lint:
     runs-on: ubuntu-22.04
